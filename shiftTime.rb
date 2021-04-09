@@ -1,5 +1,5 @@
 require 'time'
-#Class to perform operation related to timecode in the set file
+#Class to perform operation related to timecode in the srt file
 class TimeCode
 	def initialize(hours,minutes,seconds,milliSeconds)
 		@time= Time.new(Time.now.year, Time.now.month, Time.now.day, hours.to_i, minutes.to_i, seconds.to_i)
