@@ -1,4 +1,5 @@
 require 'time'
+	
 #Class to perform operation related to timecode in the srt file
 class TimeCode
 	def initialize(hours,minutes,seconds,milliSeconds)
